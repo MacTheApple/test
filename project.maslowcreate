@@ -52,6 +52,15 @@
                     ]
                 },
                 {
+                    "atomType": "Readme",
+                    "name": "README",
+                    "x": 268,
+                    "y": 329,
+                    "uniqueID": 336279,
+                    "ioValues": [],
+                    "readmeText": "Readme text here"
+                },
+                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 462,
@@ -65,18 +74,43 @@
                     ]
                 },
                 {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 446,
+                    "y": 272,
+                    "uniqueID": 986596,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 641,
+                    "y": 288,
+                    "uniqueID": 336180,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Union",
                     "name": "Union",
-                    "x": 634,
-                    "y": 65,
+                    "x": 621,
+                    "y": 375,
                     "uniqueID": 246919,
                     "ioValues": []
                 },
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 624,
-                    "y": 249,
+                    "x": 910,
+                    "y": 256,
                     "ioValues": []
                 }
             ],
@@ -86,6 +120,12 @@
                     "ap2Name": "radius",
                     "ap1ID": 845210,
                     "ap2ID": 857165
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "y length",
+                    "ap1ID": 845210,
+                    "ap2ID": 986596
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -100,6 +140,12 @@
                     "ap2ID": 857165
                 },
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x length",
+                    "ap1ID": 844348,
+                    "ap2ID": 986596
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 857165,
@@ -109,6 +155,30 @@
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap1ID": 817210
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap1ID": 817210,
+                    "ap2ID": 336180
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap1ID": 817210,
+                    "ap2ID": 246919
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap1ID": 986596,
+                    "ap2ID": 336180
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap1ID": 986596,
+                    "ap2ID": 246919
                 }
             ],
             "fileTypeVersion": 1
