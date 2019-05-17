@@ -6,18 +6,55 @@
             "x": 0,
             "y": 0,
             "uniqueID": 517241,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Input777949",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": true,
             "allAtoms": [
                 {
+                    "atomType": "Input",
+                    "name": "Input777949",
+                    "x": 80,
+                    "y": 178,
+                    "uniqueID": 845210,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 311,
+                    "y": 159,
+                    "uniqueID": 857165,
+                    "ioValues": [
+                        {
+                            "name": "radius",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "max segment size",
+                            "ioValue": 1
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1367,
-                    "y": 233.5,
+                    "x": 858,
+                    "y": 179,
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "radius",
+                    "ap1ID": 845210,
+                    "ap2ID": 857165
+                }
+            ],
             "fileTypeVersion": 1
         }
     ]
