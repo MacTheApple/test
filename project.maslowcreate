@@ -14,6 +14,10 @@
                 {
                     "name": "Input377324",
                     "ioValue": 10
+                },
+                {
+                    "name": "Input400462",
+                    "ioValue": 10
                 }
             ],
             "topLevel": true,
@@ -36,6 +40,14 @@
                     "readmeText": "Readme text here"
                 },
                 {
+                    "atomType": "Input",
+                    "name": "Input400462",
+                    "x": 232,
+                    "y": 60,
+                    "uniqueID": 439217,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Circle",
                     "name": "Circle",
                     "x": 258,
@@ -49,6 +61,27 @@
                         {
                             "name": "max segment size",
                             "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 368,
+                    "y": 85,
+                    "uniqueID": 366646,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
                         }
                     ]
                 },
@@ -114,16 +147,16 @@
                 {
                     "atomType": "Union",
                     "name": "Union",
-                    "x": 621,
-                    "y": 375,
+                    "x": 707,
+                    "y": 138,
                     "uniqueID": 246919,
                     "ioValues": []
                 },
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 910,
-                    "y": 256,
+                    "x": 863,
+                    "y": 190,
                     "ioValues": []
                 }
             ],
@@ -147,9 +180,21 @@
                     "ap2ID": 722598
                 },
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "yDist",
+                    "ap1ID": 439217,
+                    "ap2ID": 366646
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 857165,
+                    "ap2ID": 366646
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 366646,
                     "ap2ID": 817210
                 },
                 {
@@ -169,11 +214,6 @@
                     "ap2Name": "x length",
                     "ap1ID": 844348,
                     "ap2ID": 986596
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": 817210
                 },
                 {
                     "ap1Name": "geometry",
@@ -204,6 +244,11 @@
                     "ap2Name": "geometry1",
                     "ap1ID": 722598,
                     "ap2ID": 336180
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 336180
                 }
             ],
             "fileTypeVersion": 1
