@@ -12,11 +12,11 @@
                     "ioValue": 10
                 },
                 {
-                    "name": "Input377324",
+                    "name": "Input400462",
                     "ioValue": 10
                 },
                 {
-                    "name": "Input400462",
+                    "name": "Input377324",
                     "ioValue": 10
                 }
             ],
@@ -155,8 +155,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 863,
-                    "y": 190,
+                    "x": 1367,
+                    "y": 233.5,
                     "ioValues": []
                 }
             ],
